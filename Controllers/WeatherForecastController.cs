@@ -1,5 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
-
+using Tarkov_Ballistics_Calculator.Models;
 namespace Tarkov_Ballistics_Calculator.Controllers;
 
 [ApiController]

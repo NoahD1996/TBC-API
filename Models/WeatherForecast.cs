@@ -1,4 +1,4 @@
-namespace Tarkov_Ballistics_Calculator;
+namespace Tarkov_Ballistics_Calculator.Models;
 
 public class WeatherForecast
 {

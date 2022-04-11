@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "yT5UXz2k7itXmXy/GyAlT5VjEx43yOVbC0nHcltzU1J/Af5f29VCX3P3vfs/Bfo7MA90h9AFtkP2Hxkv0UclFQ==",
+  "dgSpecHash": "HOSdJ7V556s3eiQx27/XBi1c3OLc1n3umTZlfzOE5YBb38FKbLBl3dHcLkNnNwAia/N9oPQJkrgDbyvUSz/O4g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Noahc\\Desktop\\challenges\\Tarkov ballistics calculator\\Tarkov-Ballistics-Calculator\\Tarkov-Ballistics-Calculator.csproj",
+  "projectFilePath": "C:\\Users\\Noahc\\Desktop\\challenges\\Tarkov ballistics calculator\\TBC-API\\Tarkov-Ballistics-Calculator.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Noahc\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Noahc\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",
@@ -37,6 +37,7 @@
     "C:\\Users\\Noahc\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.3\\microsoft.entityframeworkcore.abstractions.6.0.3.nupkg.sha512",
     "C:\\Users\\Noahc\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\6.0.3\\microsoft.entityframeworkcore.analyzers.6.0.3.nupkg.sha512",
     "C:\\Users\\Noahc\\.nuget\\packages\\microsoft.entityframeworkcore.design\\6.0.3\\microsoft.entityframeworkcore.design.6.0.3.nupkg.sha512",
+    "C:\\Users\\Noahc\\.nuget\\packages\\microsoft.entityframeworkcore.inmemory\\6.0.3\\microsoft.entityframeworkcore.inmemory.6.0.3.nupkg.sha512",
     "C:\\Users\\Noahc\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\6.0.3\\microsoft.entityframeworkcore.relational.6.0.3.nupkg.sha512",
     "C:\\Users\\Noahc\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\6.0.3\\microsoft.entityframeworkcore.sqlserver.6.0.3.nupkg.sha512",
     "C:\\Users\\Noahc\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",

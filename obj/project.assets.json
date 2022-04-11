@@ -952,6 +952,18 @@
           "build/net6.0/Microsoft.EntityFrameworkCore.Design.props": {}
         }
       },
+      "Microsoft.EntityFrameworkCore.InMemory/6.0.3": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "6.0.3"
+        },
+        "compile": {
+          "lib/net6.0/Microsoft.EntityFrameworkCore.InMemory.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.EntityFrameworkCore.InMemory.dll": {}
+        }
+      },
       "Microsoft.EntityFrameworkCore.Relational/6.0.3": {
         "type": "package",
         "dependencies": {
@@ -4179,6 +4191,20 @@
         "lib/net6.0/Microsoft.EntityFrameworkCore.Design.xml",
         "microsoft.entityframeworkcore.design.6.0.3.nupkg.sha512",
         "microsoft.entityframeworkcore.design.nuspec"
+      ]
+    },
+    "Microsoft.EntityFrameworkCore.InMemory/6.0.3": {
+      "sha512": "4LX3OTfSQYUYGASDYcpSfI8zXSb5ycGkCqRuaUK4emXAdq98ebOOBBTqwl9VCTZjZiBpiMaUPRO1GQg4FrybGA==",
+      "type": "package",
+      "path": "microsoft.entityframeworkcore.inmemory/6.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "lib/net6.0/Microsoft.EntityFrameworkCore.InMemory.dll",
+        "lib/net6.0/Microsoft.EntityFrameworkCore.InMemory.xml",
+        "microsoft.entityframeworkcore.inmemory.6.0.3.nupkg.sha512",
+        "microsoft.entityframeworkcore.inmemory.nuspec"
       ]
     },
     "Microsoft.EntityFrameworkCore.Relational/6.0.3": {
@@ -9608,6 +9634,7 @@
   "projectFileDependencyGroups": {
     "net6.0": [
       "Microsoft.EntityFrameworkCore.Design >= 6.0.3",
+      "Microsoft.EntityFrameworkCore.InMemory >= 6.0.3",
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.3",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 6.0.2",
       "Swashbuckle.AspNetCore >= 6.2.3"
@@ -9619,11 +9646,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Noahc\\Desktop\\challenges\\Tarkov ballistics calculator\\Tarkov-Ballistics-Calculator\\Tarkov-Ballistics-Calculator.csproj",
+      "projectUniqueName": "C:\\Users\\Noahc\\Desktop\\challenges\\Tarkov ballistics calculator\\TBC-API\\Tarkov-Ballistics-Calculator.csproj",
       "projectName": "Tarkov-Ballistics-Calculator",
-      "projectPath": "C:\\Users\\Noahc\\Desktop\\challenges\\Tarkov ballistics calculator\\Tarkov-Ballistics-Calculator\\Tarkov-Ballistics-Calculator.csproj",
+      "projectPath": "C:\\Users\\Noahc\\Desktop\\challenges\\Tarkov ballistics calculator\\TBC-API\\Tarkov-Ballistics-Calculator.csproj",
       "packagesPath": "C:\\Users\\Noahc\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Noahc\\Desktop\\challenges\\Tarkov ballistics calculator\\Tarkov-Ballistics-Calculator\\obj\\",
+      "outputPath": "C:\\Users\\Noahc\\Desktop\\challenges\\Tarkov ballistics calculator\\TBC-API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Noahc\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -9655,6 +9682,10 @@
           "Microsoft.EntityFrameworkCore.Design": {
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
             "suppressParent": "All",
+            "target": "Package",
+            "version": "[6.0.3, )"
+          },
+          "Microsoft.EntityFrameworkCore.InMemory": {
             "target": "Package",
             "version": "[6.0.3, )"
           },

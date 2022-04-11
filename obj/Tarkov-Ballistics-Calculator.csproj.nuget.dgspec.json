@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Noahc\\Desktop\\challenges\\Tarkov ballistics calculator\\Tarkov-Ballistics-Calculator\\Tarkov-Ballistics-Calculator.csproj": {}
+    "C:\\Users\\Noahc\\Desktop\\challenges\\Tarkov ballistics calculator\\TBC-API\\Tarkov-Ballistics-Calculator.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Noahc\\Desktop\\challenges\\Tarkov ballistics calculator\\Tarkov-Ballistics-Calculator\\Tarkov-Ballistics-Calculator.csproj": {
+    "C:\\Users\\Noahc\\Desktop\\challenges\\Tarkov ballistics calculator\\TBC-API\\Tarkov-Ballistics-Calculator.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Noahc\\Desktop\\challenges\\Tarkov ballistics calculator\\Tarkov-Ballistics-Calculator\\Tarkov-Ballistics-Calculator.csproj",
+        "projectUniqueName": "C:\\Users\\Noahc\\Desktop\\challenges\\Tarkov ballistics calculator\\TBC-API\\Tarkov-Ballistics-Calculator.csproj",
         "projectName": "Tarkov-Ballistics-Calculator",
-        "projectPath": "C:\\Users\\Noahc\\Desktop\\challenges\\Tarkov ballistics calculator\\Tarkov-Ballistics-Calculator\\Tarkov-Ballistics-Calculator.csproj",
+        "projectPath": "C:\\Users\\Noahc\\Desktop\\challenges\\Tarkov ballistics calculator\\TBC-API\\Tarkov-Ballistics-Calculator.csproj",
         "packagesPath": "C:\\Users\\Noahc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Noahc\\Desktop\\challenges\\Tarkov ballistics calculator\\Tarkov-Ballistics-Calculator\\obj\\",
+        "outputPath": "C:\\Users\\Noahc\\Desktop\\challenges\\Tarkov ballistics calculator\\TBC-API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Noahc\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -43,6 +43,10 @@
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
               "target": "Package",
               "version": "[6.0.3, )"
             },
